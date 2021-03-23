@@ -8,7 +8,7 @@ app.use(express.json());
 
 const repositories = [];
 
-app.get("/repositories", (request, response) => {
+app.get("/repositories", (request, response) => {""
   return response.json(repositories);
 });
 
